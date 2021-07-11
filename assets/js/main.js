@@ -1,9 +1,4 @@
-/**
-* Template Name: Selecao - v2.3.1
-* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -115,13 +110,17 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('#header').addClass('fixed-top');
+
     } else {
       $('#header').removeClass('header-scrolled');
+      $('#header').removeClass('fixed-top');
     }
   });
 
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
+    $('#header').addClass('fixed-top');
   }
 
   // Intro carousel
