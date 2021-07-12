@@ -449,7 +449,6 @@ section {
 .download .icon-box::before {
   content: '';
   position: absolute;
-  background: #e1f0fa;
   right: -60px;
   top: -40px;
   width: 100px;
@@ -459,8 +458,31 @@ section {
   z-index: -1;
 }
 
+.download .elex::before, .download .elex:hover::before {
+  background: #50816E;
+}
+
+.download .entc::before, .download .entc:hover::before {
+  background: #009ED6;
+}
+
+.download .comp::before, .download .comp:hover::before {
+  background: #752823;
+}
+
+.download .IT::before, .download .IT:hover::before {
+  background: #F6A0E4;
+}
+
+.download .mech::before, .download .mech:hover::before {
+  background: #AC5DC5;
+}
+
+.download .civil::before, .download .civil:hover::before {
+  background: #4C4C4C;
+}
+
 .download .icon-box:hover::before {
-  background: #3498db;
   right: 0;
   top: 0;
   width: 100%;
@@ -473,17 +495,12 @@ section {
   padding-top: 10px;
   display: inline-block;
   text-align: center;
-  border-radius: 50%;
   width: 48px;
   height: 48px;
-  background: #3498db;
-  transition: all 0.3s ease-in-out;
 }
 
-.download .icon i {
-  font-size: 28px;
-  line-height: 1;
-  color: #fff;
+.download .icon img {
+  width: 130%;
 }
 
 .download .title {
@@ -502,17 +519,10 @@ section {
   margin-bottom: 0;
 }
 
-.download .icon-box:hover .title a, .services .icon-box:hover .description {
+.download .icon-box:hover .title a, .download .icon-box:hover .description {
   color: #fff;
 }
 
-.download .icon-box:hover .icon {
-  background: #fff;
-}
-
-.download .icon-box:hover .icon i {
-  color: #3498db;
-}
 
 /*--------------------------------------------------------------
 # Features
