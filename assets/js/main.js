@@ -112,7 +112,7 @@
       var ww = document.body.clientWidth;
       if (ww < 768) {
         $(window).scroll(function() {
-          if ($(this).scrollTop() > 130) {
+          if ($(this).scrollTop() > 78) {
             $('#header').addClass('header-scrolled');
             $('#header').addClass('fixed-top');
             $('#main').addClass('main');
@@ -126,7 +126,7 @@
       }
       else if (ww > 768) {
         $(window).scroll(function() {
-          if ($(this).scrollTop() > 210) {
+          if ($(this).scrollTop() > 165) {
             $('#header').addClass('header-scrolled');
             $('#header').addClass('fixed-top');
             $('#main').addClass('main');
@@ -145,27 +145,6 @@
     //Fire it when the page first loads:
     alterClass();
   });
-
-
-  // Toggle .header-scrolled class to #header when page is scrolled
-  // $(window).scroll(function() {
-  //   if ($(this).scrollTop() > 205) {
-  //     $('#header').addClass('header-scrolled');
-  //     $('#header').addClass('fixed-top');
-  //     $('#main').addClass('main');
-
-  //   } else {
-  //     $('#header').removeClass('header-scrolled');
-  //     $('#header').removeClass('fixed-top');
-  //     $('#main').removeClass('main');
-  //   }
-  // });
-
-  // if ($(window).scrollTop() > 100) {
-  //   $('#header').addClass('header-scrolled');
-  //   $('#header').addClass('fixed-top');
-  //   $('#main').addClass('main');
-  // }
 
   // Intro carousel
   var heroCarousel = $("#heroCarousel");
