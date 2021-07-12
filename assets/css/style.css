@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
+  background: black;
 }
 
 #header.header-transparent {
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(42, 44, 57, 0.9);
+  background: black;
 }
 
 #header .logo h1 {
@@ -218,9 +218,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
-  position: fixed;
-  right: 15px;
-  top: 145px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -493,6 +490,10 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: translate(85px, 0%);
   }
+}
+
+.main {
+  margin-top: 68px;
 }
 
 /*--------------------------------------------------------------
