@@ -112,7 +112,7 @@
       var ww = document.body.clientWidth;
       if (ww < 768) {
         $(window).scroll(function() {
-          if ($(this).scrollTop() > 138) {
+          if ($(this).scrollTop() > 125) {
             $('#header').addClass('header-scrolled');
             $('#header').addClass('fixed-top');
             $('#main').addClass('main');
@@ -126,7 +126,7 @@
       }
       else if (ww > 768) {
         $(window).scroll(function() {
-          if ($(this).scrollTop() > 200) {
+          if ($(this).scrollTop() > 210) {
             $('#header').addClass('header-scrolled');
             $('#header').addClass('fixed-top');
             $('#main').addClass('main');
