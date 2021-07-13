@@ -416,6 +416,12 @@ section {
   color: #2a2c39;
 }
 
+@media (max-width: 769px) {
+  .section-title p {
+    font-size: 28px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Download
 --------------------------------------------------------------*/
@@ -570,6 +576,7 @@ section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -644,6 +651,22 @@ section {
   bottom: 15px;
 }
 
+@media (max-width: 769px) {
+  .team .content-item h4 {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    margin: 10px 0;
+    color: black;
+  }
+
+  .team .content-item p {
+    color: black;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
