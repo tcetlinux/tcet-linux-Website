@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   background: black;
 }
 
-#header .logo h1 {
+#header .logo .text-light {
   font-size: 28px;
   margin: 0;
   padding: 0;
